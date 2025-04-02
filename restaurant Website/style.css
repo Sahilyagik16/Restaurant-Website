@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("pizza.jfif");
+    background-size: 50% 90%;
+    
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0px 70px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px gray;
+}
+.logo{
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.logo span{
+    color: brown;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+.menu a:last-child{
+    background: brown;
+    color: white;
+    border-radius: 8px;
+}
+.h-text{
+    
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 15px;
+}
+.h-text p{
+    color: #262626;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.h-text h1{
+    font-size: 4em;
+    line-height: 1.5em;
+}
+.h-text h1 span{
+    color: brown;
+}
+.h-text h2{
+    margin-bottom: 0.5em;
+    font-size: 4em;
+}
+#order{
+    text-decoration: none;
+    background: brown;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+#dis{
+    text-decoration: none;
+    color: white;
+    background: #262626;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+#pizza{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+}
+#pizza img{
+    transition: 0.4s ease;
+}
+#pizza img:hover{
+    transform: translateY(-20px);
+}
+.about{
+    margin-top: 100px;
+    width: 100%;
+    height: 1800px;
+    background-color: rgba(75, 18, 18, 0.726);
+}
+.about h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: 35px;
+    color: white;
+}
+.about p{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-size: 27px;
+    font-style: italic;
+    position: relative;
+    top: 50px;
+    margin-left: 20px;
+    color: white;
+}
+.about-2{
+    position: absolute;
+    top: 160%;
+}
+.about-2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 47%;
+    position: absolute;
+    left: 270%;
+}
+.about-2 p{
+    margin-top: 20px;
+}
+.image{
+    margin-top: 360px;
+}
+.image img{
+    height: 700px;
+    width: 100%;
+}
+.about h2{
+    margin-top: 60px;
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 20px;
+    font-size: 50px;
+    color: white;
+}
+.about b{
+    
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.timing{
+    margin-top: 20px;
+    display: flex;
+    gap: 400px;
+}
+.timing-2 p{
+    margin-top: 30px;
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.timing-2 {
+    display: inline-block;
+    
+}
+.footer{
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-size: 30px;
+}
+.footer p{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
